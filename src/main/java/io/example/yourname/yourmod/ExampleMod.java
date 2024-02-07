@@ -12,7 +12,6 @@ import org.apache.logging.log4j.Logger;
 public class ExampleMod implements ModInitializer, OrderedResourceListenerInitializer {
 
 	public static final String MODID = "modid";
-	public static String VERSION = "";
 	public static final Logger LOGGER = LogManager.getLogger(ExampleMod.class);
 
 	@Override
